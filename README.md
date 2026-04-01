@@ -2,7 +2,7 @@
 
 | | |
 | --- | --- |
-| **Testing** | [![CI Status](https://github.com/Unloosed/python-template/actions/workflows/ci.yml/badge.svg)](https://github.com/Unloosed/python-template/actions/workflows/ci.yml) [![codecov](https://codecov.io/gh/Unloosed/python-template/graph/badge.svg?token=X4ANDWGKUW)](https://codecov.io/gh/Unloosed/python-template) |
+| **Testing** | [![CI Status](https://github.com/Unloosed/python-template/actions/workflows/ci.yml/badge.svg)](https://github.com/Unloosed/python-template/actions/workflows/ci.yml) [![codecov](https://codecov.io/gh/Unloosed/python-template/graph/badge.svg?token=JR4BSEK1JK)](https://codecov.io/gh/Unloosed/python-template) |
 | **Code Quality** | [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff) [![Security: Bandit](https://img.shields.io/badge/security-bandit-yellow.svg)](https://github.com/PyCQA/bandit) |
 | **Meta** | [![Python Version](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/downloads/release/python-3120/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) |
 | **Docs** | [![Documentation Status](https://github.com/Unloosed/python-template/actions/workflows/deploy-docs.yml/badge.svg)](https://Unloosed.github.io/python-template/) |
@@ -35,6 +35,7 @@ To use this project as a template, please follow these steps:
         - Create a [Codecov](https://codecov.io/) account and link it to your repository.
         - Retrieve your `CODECOV_TOKEN` from the Codecov repository settings.
         - Add the token as a repository secret in GitHub: `Settings > Secrets and variables > Actions > New repository secret`.
+        - Modify the badge in `README.md` by getting a token from Codecov's `Config > Badges & Graphs`
 3. **Update `Sphinx` documentation**:
     - Update the `copyright`, `author`, and `release` variables in `source/conf.py`.
     - Update the project name at the top of `source/index.rst`
