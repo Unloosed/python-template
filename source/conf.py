@@ -218,6 +218,8 @@ exclude_patterns: list[str] = []
 
 todo_include_todos = True
 
+autodoc_mock_imports = ["invoke"]
+
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
