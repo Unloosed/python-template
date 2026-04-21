@@ -1,9 +1,9 @@
-.. python-programming documentation master file, created by
+.. python-template documentation master file, created by
    sphinx-quickstart on Mon March 23 11:13:54 2026.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-python-programming documentation
+python-template documentation
 ================================
 
 Add your content using Google syntax for the ``napoleon`` extension. See the
