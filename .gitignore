@@ -199,3 +199,4 @@ pip-audit-report.md
 *.parquet
 *.gzip
 *.rst
+!source/index.rst
